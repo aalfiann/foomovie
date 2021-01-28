@@ -53,6 +53,9 @@ if(document.getElementById('movie-year')) {
 if(document.getElementById('sidebar-widget')) {
   var widget = $('#sidebar-widget');
   widget.append(`<div class="widget">
+      <iframe class="lazyload" data-src="https://imgfo.com/featured-box-embed.html" width="300px" height="250px" frameborder="0" scrolling="no"></iframe>
+    </div>`);
+  widget.append(`<div class="widget">
     <a href="/contact">
       <img data-src="https://via.placeholder.com/300" class="img-fluid lazyload">
     </a>
